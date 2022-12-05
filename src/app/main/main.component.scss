@@ -1,0 +1,70 @@
+#map{
+    width:50%;
+    height: 250px;
+    border-radius: 5px;
+    margin: auto;
+}
+.choose-text-option{
+    font-family: AvenirNext;
+    letter-spacing: 1.25px;
+    color:rgb(128,128,128);
+    font-weight: 600;
+    font-size: 9px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+.font-chooser-container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.font-item{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.font-item span{
+    line-height: 50px;
+    vertical-align: middle;
+}
+.font-typewriter{
+    font-family: engrave-typewriter !important;
+}
+.font-oldlondon{
+    font-family: engrave-oldLondon;
+}
+.font-handwriter{
+    font-family: engrave-handwriting;
+}
+.font-standard{
+    font-family: engrave-standard;
+}
+.coordinates-container{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.coordinates-container input{
+    border: 1px solid #e3e3e3;
+    height: 38px;
+    line-height: 38px;
+    padding: 0;
+    margin: 0px;
+    max-width: 50%;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    color: black !important;
+    margin-right: 5px;
+}
